@@ -1,0 +1,134 @@
+#head{
+	height: 110px;
+	//background-color:yellow;
+	position: relative;
+}
+body{
+	margin: 0;
+	font-family: '宋体';
+}
+H1{
+	background-image: url('../images/logo.jpg');
+	background-repeat: no-repeat;
+	text-indent: -999em;
+	width:178px;
+	height:58px;
+	margin: 0;
+	position: absolute;
+	top: 27px;
+	left:23px;
+}
+.btn{
+	background-image: url('../images/btn_search.jpg');
+	background-repeat: no-repeat;
+	text-indent: -999em;
+	width: 45px;
+	height: 26px;
+	border: none;
+}
+.search_keys{
+	width: 212px;
+	height: 24px;
+	border: 1px solid #cccccc;
+	padding: 0;
+	float:left;
+}
+#search{
+	position: absolute;
+	left: 340px;
+	top:43px;
+}
+.nav1{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.top_nav{
+	font-size: 13px;
+	color: #999;
+	margin: 0px;
+	list-style: none;
+}
+.top_nav a{
+	color: #999999;
+	text-decoration: none;
+}
+.top_nav li{
+	display: inline;
+	border-right: 1px solid #ccc;
+	padding: 0 10px;
+}
+.top_nav li.last{
+	border-right: none;
+}
+#menu{
+	height: 30px;
+	background-color: #fafafa;
+	font-size: 12px;
+}
+.nav2{
+	padding-top: 8px;
+	padding-left: 8px;
+}
+.nav2 a{
+	color: #333;
+}
+#main{
+	width:900px;
+	margin:0 auto;
+}
+
+#footer{
+	margin-top:10px;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 12px;
+	color: #999;
+	clear: both;
+}
+#footer p span{
+	font-family: Arial;
+}
+.pro_list H2{
+	text-align:center;
+	background-image: url('../images/tit_hot.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -999em;
+}
+
+.product{
+	text-align: center;
+	font-size: 12px;
+	color: #333;
+	float: left;
+	margin-right: 18px;
+	padding-bottom: 15px;
+}
+.product .price{
+	color: #C00;
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.pro_list .last{
+	margin-right: 0;
+}
+.left{
+	width: 400px;
+	float: left;
+}
+.right{
+	width: 500px;
+	float: right;
+	font-size: 12px;
+}
+.right h2{
+	font-size: 30px;
+}
+.right span{
+	color: red;
+	font-family: Arail;
+	font-size: 18px;
+}
